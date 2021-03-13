@@ -1,6 +1,8 @@
 <!-- Questions to Submit in today's file first-lastname.txt --> 
 <!--
-Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes.
+
+codepen assignment: https://codepen.io/kyle-cardwell/pen/xxRMKXv?editors=1100
 
     1. What is Semantic HTML? 
             HTML with tags that have meaning for what they're being used for
@@ -19,7 +21,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     8. What elements can I add an id to? 
             most html tags
     9. How many times can I use the same id on a page? 
-        1
+        	1
     10. What is a class? 
             an attribute to give style to multiple elements
     11. What elements can I add a class to?
@@ -43,11 +45,11 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     20. How do we select classes in CSS?
             use a "." and the name of the class
     21. How do we select a p element with a single class of “human””?
-            .human p{}
+            p.human {}
     22. What is a parent child selector? When would this be useful?
             children are grouped within the parents.  You can specify the parent's style and all of the children will get the same style
     23. How do you select all links within a div with the class of sidebar?
-        .sidebar div{}
+        	div.sidebar a {}
     24. What is a pseudo selector?
             it recognizes when the element is in a different state like when the mouse hovers over it
     25. What do we use the change the spacing between lines?
@@ -59,7 +61,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     28. How do I add a 1px border around my div that is dotted and black?
             border: 1px doted black;
     29. How do I select everything on the page?
-            *{}
+            * {}
     30. How do I write a comment in CSS?
             put the comment between /* and */
     31. How do I find out what file I am in, when I am using the command line?
@@ -86,6 +88,6 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
             set the display to inline-block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-            block default: p, section, aside;  inline default: span, a;  inline-block default: 
+            block default: p, section, aside;  inline default: span, a;  inline-block default: img
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-            each html element is basically wrapped in a box.  each element will have content, padding, border, and margin.  you can set the max-width 
+            each html element is basically wrapped in a box.  each element will have content, padding, border, and margin.  you can use box-sizing: border-box; in the body or html tag to include padding & border in all the element's widths
